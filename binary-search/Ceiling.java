@@ -16,14 +16,20 @@ public class Ceiling {
                 {
                     end=mid-1;
                 }
-                ans=mid;
+                else
+                {
+                    return mid;
+                }
             }
-            return ans;
+            return start;
     }
     public static void main(String[] args) {
-        int[] arr={-18,-7,-1,0, 2, 3, 56, 121};
-        int number=2;
+        int[] arr={1,4,6,8};
+        int number=-10;
         int ans=ceiling(arr,number);
-        System.out.println(ans);
+        if(ans < arr.length)
+            System.out.println(arr[ans]);
+        else
+            System.out.println("Number greater than biggest element.");
     }
 }
