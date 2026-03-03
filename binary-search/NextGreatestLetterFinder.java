@@ -27,7 +27,7 @@ public class NextGreatestLetterFinder {
 
         char result1 = nextGreatestLetter(letters1, target1);
         System.out.println("Next greatest letter after '" + target1 + "' is: " + result1);
-
+   
         /*
         // Test Case 2 (Wrap-around case)
         char[] letters2 = {'c', 'f', 'j'};
