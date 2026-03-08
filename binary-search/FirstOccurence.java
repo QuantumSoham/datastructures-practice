@@ -1,3 +1,5 @@
-public class FirstOccurence {
-    
+import java.util.*;
+public class FirstOccurence 
+{
+        
 }
